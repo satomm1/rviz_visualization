@@ -1,0 +1,4 @@
+<launch>
+  <!-- Launch RViz with a preset settings file -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rviz_visualization)/rviz_cfgs/mattbot_visualization.rviz" />
+</launch>
