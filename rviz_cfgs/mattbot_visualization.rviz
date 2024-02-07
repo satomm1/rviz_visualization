@@ -5,7 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Status1
       Splitter Ratio: 0.5
     Tree Height: 374
   - Class: rviz/Selection
@@ -57,23 +56,23 @@ Visualization Manager:
       Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
-        All Enabled: true
+        All Enabled: false
         base_footprint:
           Value: true
         camera_color_frame:
-          Value: true
+          Value: false
         camera_color_optical_frame:
-          Value: true
+          Value: false
         camera_depth_frame:
-          Value: true
+          Value: false
         camera_depth_optical_frame:
-          Value: true
+          Value: false
         camera_ir_frame:
-          Value: true
+          Value: false
         camera_ir_optical_frame:
-          Value: true
+          Value: false
         camera_link:
-          Value: true
+          Value: false
         odom:
           Value: true
       Marker Alpha: 1
@@ -203,7 +202,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 13.26968765258789
+      Distance: 12.268306732177734
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -219,9 +218,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.9203981757164001
+      Pitch: 1.1803983449935913
       Target Frame: <Fixed Frame>
-      Yaw: 0.025398127734661102
+      Yaw: 0.6153980493545532
     Saved: ~
 Window Geometry:
   Displays:
